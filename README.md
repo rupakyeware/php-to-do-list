@@ -1,4 +1,3 @@
 ## PHP (PDO), MYSQL and JQuery AJAX Full Project from Scratch.
 
-► Subscribe Us:
-https://www.youtube.com/codingwithelias?sub_confirmation=1
+This is a basic to-do list app that works with php and sql. It was build as a college project :)

@@ -66,7 +66,7 @@ require 'db_conn.php';
                         <h2><?php echo $todo['title'] ?></h2>
                     <?php } ?>
                     <br>
-                    <small>created: <?php echo $todo['date_time'] ?></small> 
+                    <small>created: <?php echo $todo['date-time'] ?></small> 
                 </div>
             <?php } ?>
        </div>

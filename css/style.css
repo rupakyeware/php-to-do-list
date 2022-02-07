@@ -16,12 +16,17 @@ body {
     margin: 30px auto;
     border-radius: 10px;
   }
-  
+  .head{
+   text-align: center; 
+   font-family: 'Lobster', cursive;
+   font-size: 35px;
+   margin-bottom: 15px;
+  }
   .add-section {
     width: 100%;
     background: #fff;
     margin: 0px auto;
-    padding: 10px;
+    padding: 60px;
     border-radius: 5px;
   }
   
@@ -43,7 +48,7 @@ body {
     margin: 0px auto;
     border: none;
     outline: none;
-    background: #0088FF;
+    background: #ffe600;
     color: #fff;
     font-family: sans-serif;
     font-size: 16px;

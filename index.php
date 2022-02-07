@@ -9,17 +9,11 @@ require 'db_conn.php';
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>To-Do List</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Festive&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    
 </head>
 <body>
     <div class="main-section">
        <div class="add-section">
-           <h2 class="head">TO-DO-LIST</h2>
           <form action="app/add.php" method="POST" autocomplete="off">
              <?php if(isset($_GET['mess']) && $_GET['mess'] == 'error'){ ?>
                 <input type="text" 
